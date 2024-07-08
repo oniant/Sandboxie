@@ -530,7 +530,7 @@ SCertInfo Verify_CertInfo = { 0 };
 
 _FX NTSTATUS KphValidateCertificate()
 {
-    BOOLEAN CertDbg = FALSE;
+    BOOLEAN CertDbg = TRUE;
 
     static const WCHAR *path_cert = L"%s\\Certificate.dat";
     NTSTATUS status;
