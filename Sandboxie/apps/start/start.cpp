@@ -253,7 +253,7 @@ BOOL Validate_Box_Name(void)
     if (! disable_force_on_this_program) {
 
         if (display_start_menu != 2) {
-            if (!DoAboutDialog(true))
+            if (!DoAboutDialog(false))
                 return die(EXIT_FAILURE);
         }
 
